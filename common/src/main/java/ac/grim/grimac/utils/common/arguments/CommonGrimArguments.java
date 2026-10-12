@@ -31,13 +31,6 @@ public class CommonGrimArguments {
     public final static SystemArgument<Boolean> USE_CHAT_FAST_BYPASS = FACTORY.create(string("ChatFastBypass", true));
 
     /**
-     * If true, players will be kicked when they try to connect from a proxy server with ViaVersion installed.
-     * <p>
-     * This setting is opt-out (default: true) and requires a server restart to change.
-     */
-    public final static SystemArgument<Boolean> KICK_ON_VIA_PROXY = FACTORY.create(string("KickOnViaProxy", true));
-
-    /**
      * If true, a warning is logged whenever a player connects through a proxy running ViaVersion.
      * <p>
      * The warning repeats for every player who joins, so a server that has read it and decided to
