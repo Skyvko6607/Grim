@@ -40,9 +40,9 @@ on:
             MODRINTH_TOKEN:
                 required: false
             BUILD_UPDATE_TOKEN:
-                required: true
+                required: false
             BUILD_UPDATE_URL:
-                required: true
+                required: false
 
 jobs:
     build:
